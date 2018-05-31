@@ -1,0 +1,52 @@
+{
+  "globals": {
+    "angular": true,
+    "vapour": true,
+    "helper": true,
+    "util": true,
+    "rmsChart": true,
+    "rmsUrl": true,
+    "RMSCONFIG": true,
+    "Util": true,
+    "_highCharts": true,
+    "rmsDim": true,
+    "_localStorage": true
+  },
+  "rules": {
+    "eqeqeq": [
+      2,
+      "smart"
+    ],
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      0,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ]
+  },
+  "env": {
+    "es6": true,
+    "jquery": true,
+    "browser": true,
+    "commonjs": true
+  },
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true,
+    "module":  true
+  }
+}

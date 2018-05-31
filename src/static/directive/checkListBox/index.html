@@ -1,0 +1,7 @@
+<div class="ckl_box">
+    <label ng-repeat="item in data">
+        <input check-val="{{item.id || item.name}}" checked="true" type="checkbox">
+        {{item.name}} <span>{{item.type}}</span>
+    </label>
+    <div class="ckl_not" ng-show="notData.state">{{notData.str}}</div>
+</div>

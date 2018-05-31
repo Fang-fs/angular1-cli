@@ -1,0 +1,45 @@
+@name: ckl;
+@bg: #ff5f28;
+@fontYaHei: Arial,'Microsoft YaHei';
+@fonSimSun: Arial,SimSun;
+
+.@{name}{
+    &_box{
+        display: inline-block;
+        position: relative;
+        width:89%;
+        background-color: #f9f9f9;
+        padding: 15px 15px 5px 15px;
+        margin-bottom: 8px;
+        >label{
+            float: left;
+            padding: 0 3px;
+            margin: 0 10px 6px 0;
+            height: 20px;
+            line-height: 18px;
+            line-height: 20px\9;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+            color: #000000;
+            font-size: 12px;
+            font-family: @fonSimSun;
+            >input{
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 2px;
+            }
+            >span{
+                display: inline-block;
+                color: #ccc;
+                font-size: 12px;
+            }
+        }
+    }
+    &_not{
+        color: #ccc;
+        margin-bottom: 9px;
+    }
+}
+

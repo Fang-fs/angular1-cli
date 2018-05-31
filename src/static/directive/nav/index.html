@@ -1,0 +1,12 @@
+<div class="bw_nav_box">
+    <ul class="bw_nav_list">
+        <li class="nav_li" {{suburl}}  ng-repeat="nav in navDirectory"  ng-class="{'active': showTab === nav.setUrl }">
+            <a href="javascript:;" ng-click="changeSub($event,nav.url, nav.foldIcon, nav.setUrl, nav.cid)">{{nav.name}} </a>
+            <ul ng-if="!nav.foldIcon">
+                <li ng-repeat="item in nav.items" ng-click="changeSub($event,item.url, nav.foldIcon, nav.setUrl, item.cid)" ng-class="{active: item.url === rooturl}">
+                    <a  href="javascript:;" >{{item.name}}</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
