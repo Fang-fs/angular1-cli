@@ -34,9 +34,7 @@ module.exports = {
     }) {
         const green = chalk.green
         const message = `
-      # ${green('Project initialization finished!')}
-      # ========================
-      To get started:
+      ${green('Project initialization finished!')}`
      
         console.log(message)
     }
