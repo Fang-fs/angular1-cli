@@ -37,9 +37,7 @@ module.exports = {
       # ${green('Project initialization finished!')}
       # ========================
       To get started:
-      ${yellow(
-            `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}npm install (or if using yarn: yarn)\n npm run dev`
-        )}`
+     
         console.log(message)
     }
 }
