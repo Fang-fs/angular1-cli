@@ -11,13 +11,13 @@ function printMessage(data, {
 module.exports = {
     prompts: {
         name: {
-            when: 'input',
+       
             type: 'string',
             required: true,
             message: 'Project name',
         },
         description: {
-            when: 'input',
+         
             type: 'string',
             required: false,
             message: 'Project description',
