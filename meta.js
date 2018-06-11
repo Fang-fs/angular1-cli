@@ -1,5 +1,5 @@
-const pkg = require('./package.json')
-const templateVersion = pkg.version
+const pkg = require('./package.json');
+const templateVersion = pkg.version;
 
 function printMessage(data, {
     green,
@@ -32,10 +32,9 @@ module.exports = {
     complete: function (data, {
         chalk
     }) {
-        const green = chalk.green
+        const green = chalk.green;
         const message = `
-      ${green('Project initialization finished!')}`
-     
+      ${green('Project initialization finished!')}`;
         console.log(message)
     }
-}
+};
